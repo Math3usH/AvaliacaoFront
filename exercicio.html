@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício - Calculadora</title>
+    <link rel="stylesheet" href="styles/exercicio.css">
+</head>
+<body>
+    <div class="menuNavegacao">
+        <a href="index.html" class="linkMenu">Login</a> |
+        <a href="sobre.html" class="linkMenu">Sobre</a> |
+        <a href="exercicio.html" class="linkMenu">Exercício</a>
+    </div>
+
+    <div class="container">
+    <div class="containerExercicio">
+       
+        
+        <div class="caixaCalculadora">
+            <h1 class="tituloPrincipal">Calculadora de Operações</h1>
+            <div class="caixaInputCalc">
+                <input type="number" id="valor1" class="inputCalc" placeholder="Digite o 1º número">
+                <input type="number" id="valor2" class="inputCalc" placeholder="Digite o 2º número">
+            </div>
+            
+            <div class="caixaBotaoCalc">
+                <button onclick="calcular()" class="btnCalcular">Calcular Resultados</button>
+            </div>
+            
+            <div id="resultado" class="caixaResultado">
+                <!-- O resultado vai aparecer aqui -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="scripts/exercicio.js"></script>
+</body>
+</html>

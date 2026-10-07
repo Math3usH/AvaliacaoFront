@@ -1,0 +1,97 @@
+body {
+    background-color: #dbe4ef;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.menuNavegacao { 
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.linkMenu { 
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    margin: 0 15px;
+    padding-bottom: 5px;
+    transition: color 0.3s; 
+}
+
+.linkMenu:hover {
+    color: #ff3377;
+    border-bottom: 2px solid #ff3377;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    background-color: #3c3e4f;
+}
+
+.containerExercicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    background-color: #3c3e4f;
+}
+
+.tituloPrincipal {
+    color: #ff3377;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.caixaCalculadora {
+    background-color: #2d2e39;
+    padding: 120px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.caixaInputCalc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputCalc { 
+    padding: 12px; 
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.btnCalcular { 
+    width: 100%;
+    padding: 12px; 
+    cursor: pointer; 
+    background: linear-gradient(to right, #d338f5, #ff3377);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.caixaResultado { 
+    background-color: #4c4d52;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px; 
+    text-align: left;
+    line-height: 1.8; 
+    margin-top: 10px;
+    border: 1px solid #ccd;
+    display: none; /* Esconde até calcular */
+}
